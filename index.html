@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Guilherme Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" /> 
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Guilherme Muniz</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">FULL STACK DEV</p>
+            <img src="img/myImg.jpeg" alt="a picture of Guilherme Muniz" class="intro__img">
+        </section>
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I do</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Frontend</h3>
+                    <p>Frontend development is the part of web development that focuses on creating the user interface and experience of a website or web application. 
+                       I use tools such as HTML, CSS, JavaScript, React, and Bootstrap to build and design the visual components that users interact with.</p>
+                </div>                
+                <div class="service">
+                    <h3>Backend</h3>
+                    <p>Backend development is the part of web development that focuses on the server-side of a website or web application. 
+                       I use tools such as Node.JS, Express.JS, Handlebar, and Axios to build the logic and functionality of the application, including database management, API development, and server configuration.</p>
+                </div>
+                
+                <div class="service">
+                    <h3>Full Stack</h3>
+                    <p>Fullstack development is the combination of frontend and backend development, where developers handle the entire process of building a web application from start to finish. 
+                    In this area, I am responsible for designing, developing, testing, and deploying the application.</p>
+                </div>
+            </div>
+            <a href="#work" class="btn">My Work</a>
+        </section>
+        <section class="about-me" id="about">
+           <h2 class="section__title section__title--about">Who I am</h2>
+           <p class="section__subtitle section__subtitle--about">Developer based in Berlin</p>
+           
+           <div class="about-me__body">
+               <p>I graduated from the Ironhack Full-Stack Web Development Bootcamp, where I worked with: HTML, CSS, JavaScript, and Node. JS, Express. JS, React, REST APIs, MongoDB, Mongoose. 
+                I'm eager to learn more about web development technologies and keep up to date with new features on the market. 
+                My previous experiences in environmental engineering have equipped me with a solid logical and analytical mindset and soft skills that support me in this new career path.</p>
+           </div>
+           
+           <img src="./img/guiMuniz.jpg" alt="A picture of me standing" class="about-me__img">
+        </section>
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My work</h2>
+            <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+            
+            <div class="portfolio" id="portfolio"></div>
+
+        </section>
+        
+        <footer class="footer">
+            <a href="mailto:guilhermemazzolini@hotmail.com" class="footer__link">guilhermemazzolini@hotmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/guilherme-mazzolini-muniz-739852147/" target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/GuiMazzolini" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        <script src="index.js" type="module"></script>
+    </body>
+</html>

@@ -1,0 +1,51 @@
+[
+{
+    "title": "Vegan Meal Plan",
+    "image": "./img/VMP.png",
+    "shortDescription": "A site to save your recipes and see other people's recipes!",
+    "fullDescription": "A website where you can register and save all your recipes, you can also create a meal plan for your week and easily make your shopping list! In this project I did all the Backend and Frontend.",
+    "gitHubLink": "https://github.com/GuiMazzolini/project-two"
+},
+{
+    "title": "Developer Run",
+    "image": "./img/developerRun.png",
+    "shortDescription": "A game created during my first project at the Bootcamp",
+    "fullDescription": "A Mario style game where you need to pass the 3 levels to finish. The game was created using Javascript and Canvas.",
+    "gitHubLink": "https://github.com/GuiMazzolini/game-project"
+},
+{
+    "title": "Iron Library",
+    "image": "./img/IronLibrary.png",
+    "shortDescription": "The Projects Library is a collection of project plans and documentation that can be used by future students as a resource for ideas and inspiration.",
+    "fullDescription": "The library is organized into three sections: Web Development, UX/UI and Data Analytics. Each section contains a variety of projects that have been created by current and past students! This project was created using Node and Handlebars",
+    "gitHubLink": "https://github.com/GuiMazzolini/project-two"
+},
+{
+    "title": "Splash Page - Responsive",
+    "image": "./img/splashPage.png",
+    "shortDescription": "An initial page to get some data from the user",
+    "fullDescription": "A splash page is a page that precedes the main pages on your website. The purpose of a splash page varies: You can promote a new offer, show a disclaimer, or require visitors to verify information. In this page I used HTML and CSS to create a completely responsive Splash Page",
+    "gitHubLink": "https://github.com/GuiMazzolini/ProductSplash-Responsive/tree/main/Product%20Splash%20Page"
+},   
+{
+    "title": "Buraco ScoreBoard",
+    "image": "./img/cardScore.png ",
+    "shortDescription": "A scoreboard to store your points when playing the famous Brazilian game called Buraco",
+    "fullDescription": "In this project, I worked with HTML, CSS and JavaScript to create a scoreboard for the game called Buraco. In it you can store yours and yours opponent points, and at the end you can start a new scoreboard ",
+    "gitHubLink": "https://github.com/GuiMazzolini/card-scoreboard"
+},
+{
+    "title": "Oldagram",
+    "image": "./img/Oldagram.png",
+    "shortDescription": "A funny clone from Instagram",
+    "fullDescription": "In this project, I worked with HTML, CSS and JavaScript to create an instagram clone. It used a loop to iterate and show all the people in an array.",
+    "gitHubLink": "https://github.com/GuiMazzolini/oldagram"
+},
+{
+    "title": "Password Generator",
+    "image": "./img/generatePassword.png",
+    "shortDescription": "Generate a random password",
+    "fullDescription": "In this project, I worked with HTML, CSS and JavaScript to create a password generator. In it you can choose the size between 5 and 15 digits and generate a random password!",
+    "gitHubLink": "https://github.com/GuiMazzolini/password-generator"
+}
+]
