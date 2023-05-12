@@ -15,15 +15,26 @@ navLinks.forEach(link => {
 });
 
 for (let i = 0; i < portfolio.length; i++) {
+    const div = document.createElement('div')
+    div.classList.add('portfolio__item')
     const img = document.createElement("img");
     img.src = portfolio[i].image;
     img.classList.add("portfolio__img");
     img.onclick = function() {
         window.open(`portfolio-item.html?index=${i}`, "_self");
-
   };
-  imgPortfolio?.appendChild(img);
+  div.appendChild(img)
+  imgPortfolio?.appendChild(div);
 };
+// for (let i = 0; i < portfolio.length; i++) {
+//     const img = document.createElement("img");
+//     img.src = portfolio[i].image;
+//     img.classList.add("portfolio__img");
+//     img.onclick = function() {
+//         window.open(`portfolio-item.html?index=${i}`, "_self");
+//   };
+//   imgPortfolio?.appendChild(img);
+// };
 
 function displayItemInfo() {
     const urlParams = new URLSearchParams(window.location.search);
